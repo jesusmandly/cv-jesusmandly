@@ -190,7 +190,7 @@
 
         <section id="contactar">
           <h2>Contactar</h2>
-          <form action="https://formspree.io/f/mpwrljlp" method="POST">
+          <form id="contactForm"  action="https://formspree.io/f/mpwrljlp" method="POST">
               <!-- Honeypot, campo oculto -->
             <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" />
             
@@ -220,6 +220,39 @@
       toggle.setAttribute('aria-expanded', isActive);
       });
     </script>
+     <script>
+  const form = document.getElementById('contactForm');
+  const messageBox = document.getElementById('formMessage');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita que se recargue la página
+
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    })
+    .then(response => {
+      if (response.ok) {
+        messageBox.style.display = 'block';
+        messageBox.style.color = 'green';
+        messageBox.textContent = '¡Gracias por enviar tu mensaje! Te responderé pronto.';
+        form.reset();
+      } else {
+        messageBox.style.display = 'block';
+        messageBox.style.color = 'red';
+        messageBox.textContent = 'Ups, hubo un problema al enviar el formulario. Inténtalo de nuevo más tarde.';
+      }
+    })
+    .catch(() => {
+      messageBox.style.display = 'block';
+      messageBox.style.color = 'red';
+      messageBox.textContent = 'Ups, hubo un error de red. Inténtalo de nuevo más tarde.';
+    });
+  });
+</script>
   </body>
 
 </html>
