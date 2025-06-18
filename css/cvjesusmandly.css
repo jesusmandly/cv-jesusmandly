@@ -593,7 +593,7 @@ header {
 
 #experiencia {
   padding: 20px 20px 20px 20px; /* da espacio interior */
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   overflow: auto;
   position: relative
 }
@@ -675,7 +675,7 @@ header {
   grid-area: crear;
   width: 600px;
   height: 450px;
-  margin: 10px 0px 20px 30px;
+  margin: 10px 0px 10px 30px;
   display: block;
   justify-items: center;
   border: solid 2px white;
@@ -766,8 +766,8 @@ p {
 /* ACABA LA SECCIÓN DE EXPERIENCIA PROFESIONAL Y COMIENZA LA SECCIÓN DE ESTUDIOS */
 
 #estudios {
-  padding: 20px 20px 20px 20px;
-  margin-bottom: 20px;
+  padding: 10px 20px 20px 20px;
+  margin-bottom: 10px;
   overflow: auto;
   position: relative;
 }
