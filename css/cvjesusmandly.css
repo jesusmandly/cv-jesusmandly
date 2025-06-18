@@ -594,7 +594,7 @@ header {
 /*TERMINA LA SECCIÓN SOBRE MÍ. COMIENZA SECCIÓN EXPERIENCIA */
 
 #experiencia {
-  padding: 20px 20px 0px 20px; /* da espacio interior */
+  padding: 20px 20px 30px 20px; /* da espacio interior */
   overflow: auto;
   position: relative
 }
@@ -767,7 +767,7 @@ p {
 /* ACABA LA SECCIÓN DE EXPERIENCIA PROFESIONAL Y COMIENZA LA SECCIÓN DE ESTUDIOS */
 
 #estudios {
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px 60px 20px;
   margin-bottom: 10px;
   overflow: auto;
   position: relative;
@@ -953,7 +953,7 @@ p {
   color: rgb(255, 255, 255);
   font-family: var(--font-secundaria); 
   font-size: 1.8em; 
-  font-weight: 400; 
+  font-weight: 300; 
   letter-spacing: 0.2em; 
   text-shadow: 0px 1px 4px rgb(64, 196, 216); 
   margin-bottom: 16px;
