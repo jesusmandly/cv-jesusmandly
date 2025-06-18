@@ -592,8 +592,8 @@ header {
 /*TERMINA LA SECCIÓN SOBRE MÍ. COMIENZA SECCIÓN EXPERIENCIA */
 
 #experiencia {
-  padding: 60px 20px 60px 20px; /* da espacio interior */
-  margin-bottom: 60px;
+  padding: 20px 20px 60px 20px; /* da espacio interior */
+  margin-bottom: 20px;
   overflow: auto;
   position: relative
 }
@@ -766,8 +766,8 @@ p {
 /* ACABA LA SECCIÓN DE EXPERIENCIA PROFESIONAL Y COMIENZA LA SECCIÓN DE ESTUDIOS */
 
 #estudios {
-  padding: 60px 20px 60px 20px;
-  margin-bottom: 60px;
+  padding: 20px 20px 60px 20px;
+  margin-bottom: 20px;
   overflow: auto;
   position: relative;
 }
