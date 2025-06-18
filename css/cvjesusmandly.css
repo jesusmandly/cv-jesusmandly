@@ -329,6 +329,8 @@ header {
   .hero_buttons a {
     padding: 4px 4px;
     font-size: 0.6rem;
+    height: 34px;
+    align-content: center;
   }
 
     .menu-toggle {
