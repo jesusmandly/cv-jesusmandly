@@ -605,7 +605,7 @@ header {
 
 .flecha_abajo_experiencia {
   position: absolute;
-  bottom: 30px;
+  bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 2.5em;
@@ -775,7 +775,7 @@ p {
 
 .flecha_abajo_estudios {
   position: absolute;
-  bottom: 30px;
+  bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 2.5em;
